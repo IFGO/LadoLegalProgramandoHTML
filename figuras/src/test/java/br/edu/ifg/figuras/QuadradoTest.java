@@ -37,7 +37,13 @@ public class QuadradoTest {
     public void tearDown() {
     }
     
-    public void
+    @Test
+    public void deveCalcularAreaCorretamente(){
+        Quadrado quadrado = new Quadrado(4L);
+        
+        assertEquals(16L, (long) quadrado.getArea());
+        
+    }
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
