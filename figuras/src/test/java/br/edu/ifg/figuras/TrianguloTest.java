@@ -39,8 +39,13 @@ public class TrianguloTest {
     @Test
     public void deveCalcularAreaCorretamente(){
         Triangulo triangulo = new Triangulo(4L,6L,2L,3L);
-        
         assertEquals(12L, (long) triangulo.getArea());
+        
+        Triangulo triangulo2 = new Triangulo(3L,5L,4L,3L);
+        assertEquals(7,5L, (long) triangulo2.getArea());
+
+        Triangulo triangulo3 = new Triangulo(5L,7L,5L,5L);
+        assertEquals(17,5L, (long) triangulo3.getArea());
         
     }
     
