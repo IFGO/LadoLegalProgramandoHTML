@@ -17,12 +17,12 @@ public class Triangulo extends FiguraGeometrica {
     private Long ladoB;
     private Long ladoC;
     
-    public Triangulo(Long base, Long altura, Long ladoA, Long ladoB, Long ladoC) {
+    public Triangulo(Long base, Long altura, Long ladoA, Long ladoB) {
         this.base = base;
         this.altura = altura;
         this.ladoA = ladoA;
         this.ladoB = ladoB;
-        this.ladoC = ladoC;
+        this.ladoC = base;
     }
 
     @Override
