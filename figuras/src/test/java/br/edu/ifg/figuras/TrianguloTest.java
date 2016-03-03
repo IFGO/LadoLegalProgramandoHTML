@@ -47,8 +47,12 @@ public class TrianguloTest {
     @Test
     public void deveCalcularPerimetroCorretamente(){
         Triangulo triangulo = new Triangulo(4L,6L,2L,3L);
-        
         assertEquals(9L, (long) triangulo.getPerimetro());
         
+        Triangulo triangulo2 = new Triangulo(3L,5L,4L,3L);
+        assertEquals(10L, (long) triangulo2.getPerimetro());
+
+        Triangulo triangulo3 = new Triangulo(5L,7L,5L,5L);
+        assertEquals(15L, (long) triangulo3.getPerimetro());
     }
 }
