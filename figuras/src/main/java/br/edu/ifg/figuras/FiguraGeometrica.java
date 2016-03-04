@@ -6,8 +6,8 @@
 package br.edu.ifg.figuras;
 
 /**
- *
- * @author Raissa
+ * Teste documentação
+ * 
  */
 public abstract class FiguraGeometrica {
     public abstract Long getArea();
